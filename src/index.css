@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  background-color: #282c34;
+  min-height: 150vh;
+  display: flex;
+  margin:0;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.leaderboard-container{
+  background-color: whitesmoke;
+  min-height: 150px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 7px;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(85, 3, 44);
+  border-style: solid;
+  border-color:  #160029;
+}
+.new-question{
+  background-color:  #7d6196;
+  display: flex;
+  max-width: 600px;
+  font-size: calc(10px + 2vmin);
+  color: rgb(85, 3, 44);
+  border-style: solid;
+  border-color:  #160029;
+}
+
+.results{
+  background-color:  #7d6196;
+  min-height: 150px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  margin-bottom: 7px;
+  padding: 17px;
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  color: rgb(85, 3, 44);
+  border-style: solid;
+  border-color: #160029;
+}
+
+.results-card{
+  font-size: large;
+}
+
+.App {
+  background-color: #282c34;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.navBar {
+  background-color: #160029;
+  justify-content: space-between;
+  min-height: 45px;
+  max-height: 55px;
+  display: flex;
+  margin:0;
+  flex-direction: row;
+  font-size:larger;
+  font-weight: bold;
+  color: white;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.large{
+  font-size: large;
+}
+
+.items{
+  background-color: #022511;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 60px;
+  max-height: 70px;
+  margin-top: 15px;
+  margin-bottom: 15px;  
+  margin-left: 250px;
+  margin-right: 250px;
+  font-size:larger;
+  font-weight: bold;
+  color: white;
+  cursor: "pointer"
+}
+
+.input{
+  min-height: 30px;
+  min-width: 190px;
+  margin:7px;
+  margin-left: 15px;
+}
+
+.App-header {
+  background-color: #160029;
+  min-height: 45px;
+  max-height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:0px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.item {
+  display: inline-block;
+  padding: 20px;
+  text-decoration:none;
+  text-align:center;
+}
+
+.question-card{
+  display: flex;
+  flex-direction:column;
+  margin-top: 70px;
+  background-color:  #7d6196;
+  min-height: 150px;
+  max-width: 600px;
+  margin: 5px;
+  margin-bottom: 7px;
+  padding: 17px;
+  font-size: calc(7px + 2vmin);
+  font-weight: bold;
+  color: rgb(85, 3, 44);
+  border-style: solid;
+  border-color: #160029;
+}
+
+.signed-in-user{
+  margin-left: auto;
+}
+
+.avatar-image{
+  max-width: 50px;
+  margin-right: 5px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 5px;
+}
+
+.btn {
+  text-transform: uppercase;
+  margin: 35px auto;
+  padding: 10px;
+  border: solid  #160029;
+  cursor: pointer;
+  background: #fff;
+  font-size: 16px;
+  width: 250px;
+  position: relative;
+  font-weight: bold;
+  color: #160029;
+}
+
+.btn:hover {
+  border-color: rgba(0,0,0,.5);
+  text-decoration: none;
+}
+
+.btn:focus {
+  outline: 0;
+  font-weight: 700;
+  border-width: 2px;
+}
+
+.ui-image-header{
+  margin-Left: 60px;
+  margin-Bottom: 30px;
+}
+            
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
